@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        html {
+            font-family: Roboto, sans-serif;
+
+  /* font-optical-sizing: auto;
+  font-style: normal; */
+}
+        .arabic{
+  font-family: "Changa", sans-serif;
+
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+
+        }
+
+        header {
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            color: rgb(5, 5, 5);
+            /* background-color: #19406c */
+
+        }
+
+        header .name {
+            text-align: right;
+        }
+        header .icons {
+            margin-left: 15px;
+        }
+
+        .textDecoration{
+            text-decoration: none;
+            color: #110a0a;
+        }
+        header .icons a{
+            padding: 7px 3px;
+            margin-inline:2px ;
+        }
+        header .info{
+            font-size: 15px;
+        }
+        header .icons img{
+            width: 20px;
+        }
+
+        header.secondVersion .name{
+            background-color: #19406c;
+            padding: 10px 14px;
+            border-radius: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="flex" >
+        <div class="info&icons flex">
+            <div class="info ">
+                <p>800 441 4442</p>
+                <a  class="textDecoration" href="https://www.medgulf.com.sa" target="_blank"> <p style="color: #161111;font-size: 10px;">www.<strong
+                        style="color: rgb(22, 15, 15);font-size: 11px;">medgulf</strong>.com.sa</p></a>
+            </div>
+            <div class="icons flex" >
+                <a class="textDecoration"  href="https://twitter.com/MedgulfSaudi" target="_blank"><img src="./images/twitter (1).png" alt="twitter"/></a>
+                <a class="textDecoration"  href="https://www.facebook.com/MedgulfSaudi/" target="_blank"><img src="./images/facebook-app-symbol.png" alt="facebook"></a>
+                <a  class="textDecoration" href="https://www.linkedin.com/company/the-mediterranean-and-gulf-cooperative-insurance-and-reinsurance-company/" target="_blank"><img src="./images/linkedin.png" alt="linkedIn"></a>
+                <a class="textDecoration"  href="https://www.instagram.com/medgulf_saudi/" target="_blank"><img src="./images/instagram (1).png" alt="instgram"></a>
+            </div>
+        </div>
+        <div class="name">
+            <p class="arabic">ميدغلف خاضعة لإشراف ورقابة هيئة التأمين</p>
+            <p>MEDGULF is regulated by Insurance Authority</p>
+        </div>
+    </header>
+
+    <!-- first part  -->
+    <header class="flex secondVersion" >
+        <div class="info&icons flex">
+            <div class="info ">
+                <p>800 441 4442</p>
+                <a  class="textDecoration" href="https://www.medgulf.com.sa" target="_blank"> <p style="color: #161111;font-size: 10px;">www.<strong
+                        style="color: rgb(22, 15, 15);font-size: 11px;">medgulf</strong>.com.sa</p></a>
+            </div>
+            <div class="icons flex" >
+                <a class="textDecoration"  href="https://twitter.com/MedgulfSaudi" target="_blank"><img src="./images/twitter (1).png" alt="twitter"/></a>
+                <a class="textDecoration"  href="https://www.facebook.com/MedgulfSaudi/" target="_blank"><img src="./images/facebook-app-symbol.png" alt="facebook"></a>
+                <a  class="textDecoration" href="https://www.linkedin.com/company/the-mediterranean-and-gulf-cooperative-insurance-and-reinsurance-company/" target="_blank"><img src="./images/linkedin.png" alt="linkedIn"></a>
+                <a class="textDecoration"  href="https://www.instagram.com/medgulf_saudi/" target="_blank"><img src="./images/instagram (1).png" alt="instgram"></a>
+            </div>
+        </div>
+        <div class="name">
+            <p class="arabic">ميدغلف خاضعة لإشراف ورقابة هيئة التأمين</p>
+            <p>MEDGULF is regulated by Insurance Authority</p>
+        </div>
+    </header>
+</body>
+
+</html>
