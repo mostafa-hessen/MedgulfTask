@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css" integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet"> -->
     <style>
         html {
             font-family: Roboto, sans-serif;
@@ -49,7 +52,7 @@
 
         .textDecoration{
             text-decoration: none;
-            color: #110a0a;
+            /* color: #110a0a; */
         }
         header .icons a{
             padding: 7px 3px;
@@ -58,8 +61,8 @@
         header .info{
             font-size: 15px;
         }
-        header .icons img{
-            width: 20px;
+        header .icons i{
+           font-size: 24px;
         }
 
         header.secondVersion .name{
@@ -68,22 +71,35 @@
             border-radius: 20px;
             color: white;
         }
+.info-icons p ,.info-icons a
+        {
+            color:#183f6b
+        }
+
+        @media (max-width:586px) {
+            
+            .info-icons{
+                flex-direction: column;
+    
+            }
+        }
+
     </style>
 </head>
 
 <body>
     <header class="flex" >
-        <div class="info&icons flex">
+        <div class="info-icons flex">
             <div class="info ">
                 <p>800 441 4442</p>
-                <a  class="textDecoration" href="https://www.medgulf.com.sa" target="_blank"> <p style="color: #161111;font-size: 10px;">www.<strong
-                        style="color: rgb(22, 15, 15);font-size: 11px;">medgulf</strong>.com.sa</p></a>
+                <a  class="textDecoration" href="https://www.medgulf.com.sa" target="_blank"> <p style=" font-size: 10px;">www.<strong
+                        >medgulf</strong>.com.sa</p></a>
             </div>
             <div class="icons flex" >
-                <a class="textDecoration"  href="https://twitter.com/MedgulfSaudi" target="_blank"><img src="./images/SocialMediaIconsBlack/twitter (1).png" alt="twitter"/></a>
-                <a class="textDecoration"  href="https://www.facebook.com/MedgulfSaudi/" target="_blank"><img src="./images/SocialMediaIconsBlack/facebook-app-symbol.png" alt="facebook"></a>
-                <a  class="textDecoration" href="https://www.linkedin.com/company/the-mediterranean-and-gulf-cooperative-insurance-and-reinsurance-company/" target="_blank"><img src="./images/SocialMediaIconsBlack/linkedin.png" alt="linkedIn"></a>
-                <a class="textDecoration"  href="https://www.instagram.com/medgulf_saudi/" target="_blank"><img src="./images/SocialMediaIconsBlack/instagram (1).png" alt="instgram"></a>
+                <a class="textDecoration"  href="https://twitter.com/MedgulfSaudi" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a class="textDecoration"  href="https://www.facebook.com/MedgulfSaudi/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                <a  class="textDecoration" href="https://www.linkedin.com/company/the-mediterranean-and-gulf-cooperative-insurance-and-reinsurance-company/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a class="textDecoration"  href="https://www.instagram.com/medgulf_saudi/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
         <div class="name">
@@ -94,22 +110,24 @@
 
     <!-- first part  -->
     <header class="flex secondVersion" >
-        <div class="info&icons flex">
+        <div class="info-icons flex">
             <div class="info ">
                 <p>800 441 4442</p>
-                <a  class="textDecoration" href="https://www.medgulf.com.sa" target="_blank"> <p style="color: #161111;font-size: 10px;">www.<strong
-                        style="color: rgb(22, 15, 15);font-size: 11px;">medgulf</strong>.com.sa</p></a>
+                <a  class="textDecoration" href="https://www.medgulf.com.sa" target="_blank"> <p style="font-size: 10px;">www.<strong
+                        style="font-size: 11px;">medgulf</strong>.com.sa</p></a>
             </div>
             <div class="icons flex" >
-                <a class="textDecoration"  href="https://twitter.com/MedgulfSaudi" target="_blank"><img src="./images/SocialMediaIconsBlack/twitter (1).png" alt="twitter"/></a>
-                <a class="textDecoration"  href="https://www.facebook.com/MedgulfSaudi/" target="_blank"><img src="./images/SocialMediaIconsBlack/facebook-app-symbol.png" alt="facebook"></a>
-                <a  class="textDecoration" href="https://www.linkedin.com/company/the-mediterranean-and-gulf-cooperative-insurance-and-reinsurance-company/" target="_blank"><img src="./images/SocialMediaIconsBlack/linkedin.png" alt="linkedIn"></a>
-                <a class="textDecoration"  href="https://www.instagram.com/medgulf_saudi/" target="_blank"><img src="./images/SocialMediaIconsBlack/instagram (1).png" alt="instgram"></a>
+                <a class="textDecoration"  href="https://twitter.com/MedgulfSaudi" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a class="textDecoration"  href="https://www.facebook.com/MedgulfSaudi/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                <a  class="textDecoration" href="https://www.linkedin.com/company/the-mediterranean-and-gulf-cooperative-insurance-and-reinsurance-company/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a class="textDecoration"  href="https://www.instagram.com/medgulf_saudi/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
         <div class="name">
             <p class="arabic">ميدغلف خاضعة لإشراف ورقابة هيئة التأمين</p>
             <p>MEDGULF is regulated by Insurance Authority</p>
+           
+            
         </div>
     </header>
 </body>
